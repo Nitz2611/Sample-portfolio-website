@@ -139,9 +139,12 @@ p {
 	transform: translate(-50%, -50%) scale(1);
 	letter-spacing: initial;
 }
-#header .nav-list ul li:hover a {
+#header .nav-list ul li:hover a,
+#header .nav-list ul li a.active {
 	color: crimson;
 }
+
+
 #header .hamburger {
 	height: 60px;
 	width: 60px;
@@ -308,7 +311,7 @@ p {
 }
 #services .service-item h2 {
 	font-size: 2rem;
-	color: white;
+	color: white; 
 	margin-bottom: 10px;
 	text-transform: uppercase;
 }
